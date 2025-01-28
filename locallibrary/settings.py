@@ -166,7 +166,7 @@ STORAGES = {
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-""" import os
+import os
 # Cargar la variable de entorno. El segundo argumento es
 # el valor que ha de tomarse cuando la variable no esté
 # definida.
@@ -179,4 +179,4 @@ elif stage == "development":
     from .settings_dev import *
 else:
     # Arrojar un error si MYPROJECT_STAGE tiene un valor desconocido.
-    raise ValueError("Unknown stage: {stage}") """
+    raise ValueError("Unknown stage: {stage}")
