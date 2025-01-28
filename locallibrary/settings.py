@@ -170,7 +170,7 @@ import os
 # Cargar la variable de entorno. El segundo argumento es
 # el valor que ha de tomarse cuando la variable no esté
 # definida.
-stage = os.getenv("MYPROJECT_STAGE", "production")
+stage = os.getenv("MYPROJECT_STAGE", "development")
 if stage == "production":
     # Producción.
     from .settings_production import *
