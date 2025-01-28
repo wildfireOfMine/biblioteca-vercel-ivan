@@ -52,4 +52,4 @@ urlpatterns += [
     path('accounts/', include('django.contrib.auth.urls')),
 ]
 
-app = application
+""" app = application """
